@@ -55,3 +55,14 @@ git branch
 
 git checkout branch_name
 
+Для слияния ветки с основным проектом надо:
+
+перейти на ветку master
+
+ввести комманду git merge branch_name
+
+затем можно удалить ветку, для этого вводим комманду:
+
+git branch -d branch_name
+
+
